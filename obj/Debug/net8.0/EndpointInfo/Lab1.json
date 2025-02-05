@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "Lab1",
-    "version": "1.0"
+    "title": "Lab1 API",
+    "version": "v1"
   },
   "paths": {
     "/api/Date/current-date": {
@@ -10,6 +10,38 @@
         "tags": [
           "Date"
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Upload/image": {
+      "post": {
+        "tags": [
+          "Upload"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "File": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "File": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -131,19 +163,27 @@
   "components": {
     "schemas": {
       "User": {
+        "required": [
+          "email",
+          "id",
+          "name"
+        ],
         "type": "object",
         "properties": {
           "id": {
+            "minimum": 1,
             "type": "integer",
             "format": "int64"
           },
           "name": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string"
           },
           "email": {
+            "minLength": 1,
             "type": "string",
-            "nullable": true
+            "format": "email"
           }
         },
         "additionalProperties": false

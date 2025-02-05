@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "088bx4pD0C9jYp0FjDFtyQd+4iz/3q7jGyMMQSh9p4c=",
+  "Hash": "WHyVtzXRfW/ncRfznjTvaoxpJKGQ4T/Sq1jhkfvyleI=",
   "Source": "Lab1",
   "BasePath": "_content/Lab1",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Lab1\\wwwroot",
+      "Source": "Lab1",
+      "ContentRoot": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\wwwroot\\",
+      "BasePath": "_content/Lab1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\wwwroot\\uploads\\130cd308-e5fb-4152-840a-788526e186fc.jpeg",
+      "SourceId": "Lab1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\wwwroot\\",
+      "BasePath": "_content/Lab1",
+      "RelativePath": "uploads/130cd308-e5fb-4152-840a-788526e186fc#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gz7lw33xxe",
+      "Integrity": "rJfvX78O8GktcZS+oirlJefbQQvI6Q4LsyfViFKP+pQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\130cd308-e5fb-4152-840a-788526e186fc.jpeg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/130cd308-e5fb-4152-840a-788526e186fc.gz7lw33xxe.jpeg",
+      "AssetFile": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\wwwroot\\uploads\\130cd308-e5fb-4152-840a-788526e186fc.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "326335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rJfvX78O8GktcZS+oirlJefbQQvI6Q4LsyfViFKP+pQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 22:40:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gz7lw33xxe"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/130cd308-e5fb-4152-840a-788526e186fc.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rJfvX78O8GktcZS+oirlJefbQQvI6Q4LsyfViFKP+pQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/130cd308-e5fb-4152-840a-788526e186fc.jpeg",
+      "AssetFile": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\wwwroot\\uploads\\130cd308-e5fb-4152-840a-788526e186fc.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "326335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rJfvX78O8GktcZS+oirlJefbQQvI6Q4LsyfViFKP+pQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 22:40:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rJfvX78O8GktcZS+oirlJefbQQvI6Q4LsyfViFKP+pQ="
+        }
+      ]
+    }
+  ]
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Lab1.API.Dtos;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Lab1.API.Controllers
 {
@@ -13,43 +14,35 @@ namespace Lab1.API.Controllers
         }
 
         [HttpPost("image")]
-        public async Task<IActionResult> UploadImage([FromForm] IFormFile file)
+        public async Task<IActionResult> UploadImage([FromForm] UploadImageRequest request)
         {
+            var file = request.File;
             if (file == null || file.Length == 0)
             {
                 return BadRequest("No file uploaded.");
             }
 
-            // Ensure the file is an image
             if (!file.ContentType.StartsWith("image/"))
             {
                 return BadRequest("Uploaded file is not an image.");
             }
 
-            // Create a unique file name to avoid overwriting existing files
             var fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+            var uploadsDir = Path.Combine(_env.WebRootPath, "uploads");
 
-            // Get the path to the wwwroot directory
-            var wwwrootPath = _env.WebRootPath;
-
-            // Combine the wwwroot path with the "uploads" directory and the file name
-            var filePath = Path.Combine(wwwrootPath, "uploads", fileName);
-
-            // Ensure the "uploads" directory exists
-            var uploadsDir = Path.Combine(wwwrootPath, "uploads");
             if (!Directory.Exists(uploadsDir))
             {
                 Directory.CreateDirectory(uploadsDir);
             }
 
-            // Save the file to the uploads directory
+            var filePath = Path.Combine(uploadsDir, fileName);
             using (var stream = new FileStream(filePath, FileMode.Create))
             {
                 await file.CopyToAsync(stream);
             }
 
-            // Return the file path or a success message
             return Ok(new { FilePath = filePath, Message = "File uploaded successfully." });
         }
+
     }
 }

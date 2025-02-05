@@ -34,3 +34,5 @@ C:\Users\Elia\Desktop\imind\Lab1\obj\Debug\net8.0\refint\Lab1.dll
 C:\Users\Elia\Desktop\imind\Lab1\obj\Debug\net8.0\Lab1.pdb
 C:\Users\Elia\Desktop\imind\Lab1\obj\Debug\net8.0\Lab1.genruntimeconfig.cache
 C:\Users\Elia\Desktop\imind\Lab1\obj\Debug\net8.0\ref\Lab1.dll
+C:\Users\Elia\Desktop\imind\Lab1\bin\Debug\net8.0\Lab1.staticwebassets.runtime.json
+C:\Users\Elia\Desktop\imind\Lab1\obj\Debug\net8.0\Lab1.sourcelink.json

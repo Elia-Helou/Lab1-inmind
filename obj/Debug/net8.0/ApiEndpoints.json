@@ -10,6 +10,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Lab1.API.Controllers.UploadController",
+    "Method": "UploadImage",
+    "RelativePath": "api/Upload/image",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Lab1.API.Controllers.UserController",
     "Method": "DeleteUser",
     "RelativePath": "api/User/{id}",

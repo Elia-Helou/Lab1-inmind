@@ -10,19 +10,34 @@ namespace Lab1.API.Controllers
         [HttpGet("current-date")]
         public IActionResult GetCurrentDate()
         {
-            var language = Request.Headers["Accept-Language"].ToString();
+            try
+            {
+                var language = Request.Headers["Accept-Language"].ToString();
 
-            var culture = language switch {
-                "en-US" => new CultureInfo("en-US"),
-                "es-ES" => new CultureInfo("es-ES"),
-                "fr-FR" => new CultureInfo("fr-FR"),
-                _ => new CultureInfo("en-US")
-            };
+                var culture = language switch
+                {
+                    "en-US" => new CultureInfo("en-US"),
+                    "es-ES" => new CultureInfo("es-ES"),
+                    "fr-FR" => new CultureInfo("fr-FR"),
+                    _ => throw new ArgumentException("Invalid language. Supported languages are en-US, es-ES, fr-FR.")
+                };
 
-            var currentDate = DateTime.Now.ToString("D", culture);
+                var currentDate = DateTime.Now.ToString("D", culture);
 
-            return Ok(new { CurrentDate = currentDate });
-
+                return Ok(new { CurrentDate = currentDate });
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(new { Message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = "An unexpected error occurred", Details = ex.Message });
+            }
+            finally
+            {
+                Console.WriteLine("Request processed at " + DateTime.Now);
+            }
         }
     }
 }

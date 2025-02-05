@@ -2,7 +2,7 @@
 
 namespace Lab1.Domain.Services
 {
-    public class UserService
+    public class UserService : IUserService
     {
         private readonly List<User> _users = new List<User>()
         {
