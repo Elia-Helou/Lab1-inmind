@@ -1,43 +1,30 @@
-﻿using Lab1.Domain.Services;
-using Lab1.Domain.Validators;
-using Microsoft.AspNetCore.Identity;
-using System.ComponentModel.DataAnnotations;
+﻿using FluentValidation;
+using Lab1.Domain.Models;
+using Lab1.Domain.Services;
 
-public class UserValidator : IUserValidator
+namespace Lab1.Domain.Validators
 {
-    private readonly IUserService _userService;
-
-    public UserValidator(IUserService userService)
+    public class UserValidator : AbstractValidator<User>
     {
-        _userService = userService;
-    }
+        public UserValidator(IUserService userService)
+        {
+            RuleFor(user => user.Id)
+                .NotEmpty()
+                .WithMessage("User Id is required")
+                .GreaterThan(0)
+                .WithMessage("User Id must be a positive number")
+                .Must(id => userService.GetById(id) != null)
+                .WithMessage(id => $"User with id {id} does not exist");
 
-    public (bool IsValid, string ErrorMessage) ValidateUserId(long id)
-    {
-        if (id <= 0)
-            return (false, "Invalid user ID. ID must be a positive number.");
+            RuleFor(user => user.Name)
+                .NotEmpty()
+                .WithMessage("User Name cannot be empty or whitespace.");
 
-        if (_userService.GetById(id) == null)
-            return (false, $"User with ID {id} does not exist.");
-
-        return (true, string.Empty);
-    }
-    public (bool IsValid, string ErrorMessage) ValidateName(string name)
-    {
-        if (string.IsNullOrWhiteSpace(name))
-            return (false, "name cannot be empty or white space.");
-
-        return (true, string.Empty);
-    }
-
-    public (bool IsValid, string ErrorMessage) ValidateEmail(string email)
-    {
-        if (string.IsNullOrWhiteSpace(email))
-            return (false, "Email cannot be empty.");
-
-        if (!new EmailAddressAttribute().IsValid(email))
-            return (false, "Invalid email address.");
-
-        return (true, string.Empty);
+            RuleFor(user => user.Email)
+                .NotEmpty()
+                .WithMessage("User Email is required")
+                .EmailAddress()
+                .WithMessage("Email is not valid");
+        }
     }
 }

@@ -1,7 +1,9 @@
-﻿using Lab1.Domain.Models;
+﻿using Lab1.API.Dtos;
+using Lab1.Domain.Models;
 using Lab1.Domain.Services;
 using Lab1.Domain.Validators;
 using Microsoft.AspNetCore.Mvc;
+using System.Xml.Linq;
 
 namespace Lab1.API.Controllers
 {
@@ -10,9 +12,9 @@ namespace Lab1.API.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserService _users;
-        private readonly IUserValidator _validator;
+        private readonly UserValidator _validator;
 
-        public UserController(IUserService userService, IUserValidator userValidator) 
+        public UserController(IUserService userService, UserValidator userValidator) 
         {
             _users = userService;
             _validator = userValidator;
@@ -23,58 +25,54 @@ namespace Lab1.API.Controllers
         [Route("[action]")]
         public IActionResult GetAllUsers()
         {
-            try
-            {
-                return Ok(_users.GetAllUsers());
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { Message = "An unexpected error occurred", Details = ex.Message });
-            }
+            var users = _users.GetAllUsers();
+            var persons = users.Select(user => ObjectMapperService.Map<User, Person>(user)).ToList();
+            return Ok(persons);
         }
 
-        [HttpGet]
-        [Route("[action]/{id}")]
+        [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            var (isValid, errorMessage) = _validator.ValidateUserId(id);
-            if (!isValid)
-                return BadRequest(errorMessage);
+            if (id < 0)
+                throw new ArgumentException("ID cannot be less than 0.");
 
             var user = _users.GetById(id);
             if (user == null)
-                return NotFound();
+                throw new KeyNotFoundException($"User with ID {id} not found.");
 
-            return Ok(user);
+            var person = ObjectMapperService.Map<User, Person>(user);
+
+            return Ok(person);
         }
 
         [HttpGet("search")]
         public IActionResult GetUsersByName([FromQuery] string name)
         {
-            var (isValid, errorMessage) = _validator.ValidateName(name);
-
-            if(!isValid)
-                return BadRequest(errorMessage);
-
+            if (string.IsNullOrEmpty(name))
+            {
+                throw new ArgumentException("name can't be null or empty");
+            }
             var allUsers = _users.GetUsersByName(name);
 
             if (allUsers == null || !allUsers.Any())
-                return NotFound($"No users found with the name {name}.");
+                throw new KeyNotFoundException($"No users found with the name {name}.");
 
-            return Ok(allUsers);
+            var persons = allUsers.Select(user => ObjectMapperService.Map<User, Person>(user)).ToList();
+
+            return Ok(persons);
         }
+        
 
         [HttpDelete("{id}")]
         public IActionResult DeleteUser(long id)
         {
-            var (isValid, errorMessage) = _validator.ValidateUserId(id);
-            if (!isValid)
-                return BadRequest(errorMessage);
+            if (id <= 0)
+                throw new ArgumentException("ID cannot be less than 0.");
 
             var result = _users.DeleteUser(id);
             if (!result)
             {
-                return NotFound();
+                throw new KeyNotFoundException($"No users found with the id {id}.");
             }
             return Ok();
         }
@@ -82,20 +80,23 @@ namespace Lab1.API.Controllers
         [HttpPost("update")]
         public IActionResult UpdateUser(User user)
         {
-            var (isNameValid, nameErrorMessage) = _validator.ValidateName(user.Name);
-            if (!isNameValid)
-                return BadRequest(nameErrorMessage);
+            var validationResult = _validator.Validate(user);
 
-            var (isEmailValid, emailErrorMessage) = _validator.ValidateEmail(user.Email);
-            if (!isEmailValid)
-                return BadRequest(emailErrorMessage);
+            if (!validationResult.IsValid)
+            {
+                var errors = validationResult.Errors
+                    .Select(e => new { Field = e.PropertyName, Message = e.ErrorMessage })
+                    .ToList();
+
+                return BadRequest(new { Message = "Validation failed", Errors = errors });
+            }
 
             var result = _users.UpdateUser(user);
             if (!result)
             {
-                return NotFound(new {Message = $"user with id {user.Id} not found"});
+                throw new KeyNotFoundException($"User with id {user.Id} not found");
             }
-            return Ok(new {Message = "User Updated Successfully"});
+            return Ok(new { Message = "User Updated Successfully" });
         }
 
     }

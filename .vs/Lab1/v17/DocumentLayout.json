@@ -3,44 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\api\\controllers\\datecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:api\\controllers\\datecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\domain\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:domain\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\domain\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:domain\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\domain\\validators\\iuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:domain\\validators\\iuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\domain\\utilities\\objectmapperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:domain\\utilities\\objectmapperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\domain\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:domain\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\api\\middlewares\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:api\\middlewares\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\api\\middlewares\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:api\\middlewares\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\api\\filters\\loggingactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:api\\filters\\loggingactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\api\\dtos\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:api\\dtos\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\api\\dtos\\uploadimagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:api\\dtos\\uploadimagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\domain\\utilities\\maptoattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:domain\\utilities\\maptoattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\api\\controllers\\datecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:api\\controllers\\datecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\api\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:api\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\domain\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:domain\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\domain\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|solutionrelative:domain\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA90D4A4-BCB7-4D16-89E8-034ED58454DB}|Lab1.csproj|c:\\users\\elia\\desktop\\imind\\lab1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -58,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,14 +87,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "API\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Title": "LoggingActionFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Filters\\LoggingActionFilter.cs",
+              "RelativeDocumentMoniker": "API\\Filters\\LoggingActionFilter.cs",
+              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Filters\\LoggingActionFilter.cs",
+              "RelativeToolTip": "API\\Filters\\LoggingActionFilter.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCUAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T17:02:43.71Z",
+              "WhenOpened": "2025-02-08T17:29:05.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Middlewares\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "API\\Middlewares\\GlobalExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Middlewares\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "API\\Middlewares\\GlobalExceptionHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T11:30:35.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RequestLoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Middlewares\\RequestLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "API\\Middlewares\\RequestLoggingMiddleware.cs",
+              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Middlewares\\RequestLoggingMiddleware.cs",
+              "RelativeToolTip": "API\\Middlewares\\RequestLoggingMiddleware.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T17:25:27.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ObjectMapperService.cs",
+              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Utilities\\ObjectMapperService.cs",
+              "RelativeDocumentMoniker": "Domain\\Utilities\\ObjectMapperService.cs",
+              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Utilities\\ObjectMapperService.cs",
+              "RelativeToolTip": "Domain\\Utilities\\ObjectMapperService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T23:27:32.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Validators\\UserValidator.cs",
+              "RelativeDocumentMoniker": "Domain\\Validators\\UserValidator.cs",
+              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Validators\\UserValidator.cs",
+              "RelativeToolTip": "Domain\\Validators\\UserValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T22:52:45.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T18:16:23.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Dtos\\Person.cs",
+              "RelativeDocumentMoniker": "API\\Dtos\\Person.cs",
+              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Dtos\\Person.cs",
+              "RelativeToolTip": "API\\Dtos\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T23:10:07.213Z",
               "EditorCaption": ""
             },
             {
@@ -92,98 +190,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\IUserService.cs",
-              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Services\\IUserService.cs",
-              "RelativeToolTip": "Domain\\Services\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T23:13:44.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Services\\UserService.cs",
-              "RelativeToolTip": "Domain\\Services\\UserService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAwCsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T18:40:02.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Validators\\UserValidator.cs",
-              "RelativeDocumentMoniker": "Domain\\Validators\\UserValidator.cs",
-              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Validators\\UserValidator.cs",
-              "RelativeToolTip": "Domain\\Validators\\UserValidator.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwB4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T22:52:45.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUserValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Validators\\IUserValidator.cs",
-              "RelativeDocumentMoniker": "Domain\\Validators\\IUserValidator.cs",
-              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Validators\\IUserValidator.cs",
-              "RelativeToolTip": "Domain\\Validators\\IUserValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T23:05:11.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DateController.cs",
-              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Controllers\\DateController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\DateController.cs",
-              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Controllers\\DateController.cs",
-              "RelativeToolTip": "API\\Controllers\\DateController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T22:58:01.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T18:16:23.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAowD8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:02:43.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MapToAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Utilities\\MapToAttribute.cs",
+              "RelativeDocumentMoniker": "Domain\\Utilities\\MapToAttribute.cs",
+              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Utilities\\MapToAttribute.cs",
+              "RelativeToolTip": "Domain\\Utilities\\MapToAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T23:27:06.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Models\\User.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\User.cs",
               "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Models\\User.cs",
               "RelativeToolTip": "Domain\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T16:48:31.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T16:48:31.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
+              "Title": "DateController.cs",
+              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Controllers\\DateController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\DateController.cs",
+              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Controllers\\DateController.cs",
+              "RelativeToolTip": "API\\Controllers\\DateController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T22:58:01.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\UploadController.cs",
+              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "API\\Controllers\\UploadController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T00:23:45.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Services\\UserService.cs",
+              "RelativeToolTip": "Domain\\Services\\UserService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T18:40:02.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Domain\\Services\\IUserService.cs",
+              "RelativeToolTip": "Domain\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T23:13:44.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -191,25 +283,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-04T21:45:21.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T21:45:21.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UploadController.cs",
-              "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Controllers\\UploadController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\UploadController.cs",
-              "ToolTip": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\API\\Controllers\\UploadController.cs",
-              "RelativeToolTip": "API\\Controllers\\UploadController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wCgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T00:23:45.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Lab1.csproj",
               "DocumentMoniker": "C:\\Users\\Elia\\Desktop\\imind\\Lab1\\Lab1.csproj",
               "RelativeDocumentMoniker": "Lab1.csproj",

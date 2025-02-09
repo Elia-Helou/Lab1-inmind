@@ -61,7 +61,7 @@
         }
       }
     },
-    "/api/User/Get/{id}": {
+    "/api/User/{id}": {
       "get": {
         "tags": [
           "User"
@@ -74,6 +74,27 @@
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
             }
           }
         ],
@@ -95,29 +116,6 @@
             "in": "query",
             "schema": {
               "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/User/{id}": {
-      "delete": {
-        "tags": [
-          "User"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int64"
             }
           }
         ],
@@ -163,27 +161,19 @@
   "components": {
     "schemas": {
       "User": {
-        "required": [
-          "email",
-          "id",
-          "name"
-        ],
         "type": "object",
         "properties": {
           "id": {
-            "minimum": 1,
             "type": "integer",
             "format": "int64"
           },
           "name": {
-            "maxLength": 50,
-            "minLength": 0,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "email": {
-            "minLength": 1,
             "type": "string",
-            "format": "email"
+            "nullable": true
           }
         },
         "additionalProperties": false
